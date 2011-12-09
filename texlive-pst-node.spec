@@ -1,11 +1,11 @@
-# revision 23658
+# revision 24693
 # category Package
 # catalog-ctan /graphics/pstricks/contrib/pst-node
-# catalog-date 2011-08-22 14:32:24 +0200
+# catalog-date 2011-11-29 01:11:11 +0100
 # catalog-license lppl
-# catalog-version 1.20
+# catalog-version 1.21
 Name:		texlive-pst-node
-Version:	1.20
+Version:	1.21
 Release:	1
 Summary:	Draw connections using pstricks
 Group:		Publishing
@@ -18,8 +18,6 @@ BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 The package enables the user to connect information, and to
@@ -31,19 +29,19 @@ The package contents were previously distributed as a part of
 the pstricks base distribution.
 
 %pre
-    %_texmf_mktexlsr_pre
+    %{_sbindir}/texlive.post
 
 %post
-    %_texmf_mktexlsr_post
+    %{_sbindir}/texlive.post
 
 %preun
     if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_pre
+	%{_sbindir}/texlive.post
     fi
 
 %postun
     if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_post
+	%{_sbindir}/texlive.post
     fi
 
 #-----------------------------------------------------------------------
