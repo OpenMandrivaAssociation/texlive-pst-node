@@ -28,16 +28,8 @@ mathematical diagrams, linguistic syntax diagrams, and so on.
 The package contents were previously distributed as a part of
 the pstricks base distribution.
 
-%pre
-    %{_sbindir}/texlive.post
-
 %post
     %{_sbindir}/texlive.post
-
-%preun
-    if [ $1 -eq 0 ]; then
-	%{_sbindir}/texlive.post
-    fi
 
 %postun
     if [ $1 -eq 0 ]; then
@@ -62,7 +54,6 @@ the pstricks base distribution.
 %doc %{_texmfdistdir}/doc/generic/pst-node/pst-node97.tex
 #- source
 %doc %{_texmfdistdir}/source/generic/pst-node/Makefile
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -73,5 +64,3 @@ the pstricks base distribution.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc source %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
