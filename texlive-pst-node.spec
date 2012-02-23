@@ -1,12 +1,12 @@
-# revision 24693
+# revision 25380
 # category Package
 # catalog-ctan /graphics/pstricks/contrib/pst-node
-# catalog-date 2011-11-29 01:11:11 +0100
+# catalog-date 2012-02-12 10:52:54 +0100
 # catalog-license lppl
-# catalog-version 1.21
+# catalog-version 1.22
 Name:		texlive-pst-node
-Version:	1.21
-Release:	2
+Version:	1.22
+Release:	1
 Summary:	Draw connections using pstricks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-node
