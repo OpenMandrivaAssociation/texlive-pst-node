@@ -1,11 +1,11 @@
-# revision 27799
+# revision 25380
 # category Package
 # catalog-ctan /graphics/pstricks/contrib/pst-node
-# catalog-date 2012-09-21 20:41:56 +0200
+# catalog-date 2012-02-12 10:52:54 +0100
 # catalog-license lppl
-# catalog-version 1.25
+# catalog-version 1.22
 Name:		texlive-pst-node
-Version:	1.25
+Version:	1.22
 Release:	1
 Summary:	Draw connections using pstricks
 Group:		Publishing
@@ -64,3 +64,25 @@ the pstricks base distribution.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Feb 23 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.22-1
++ Revision: 779621
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.21-2
++ Revision: 755374
+- Rebuild to reduce used resources
+
+* Fri Dec 09 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.21-1
++ Revision: 739871
+- texlive-pst-node
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.20-1
++ Revision: 719370
+- texlive-pst-node
+- texlive-pst-node
+- texlive-pst-node
+- texlive-pst-node
+
