@@ -6,7 +6,7 @@
 # catalog-version 1.25
 Name:		texlive-pst-node
 Version:	1.25
-Release:	1
+Release:	2
 Summary:	Draw connections using pstricks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-node
