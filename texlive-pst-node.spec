@@ -1,11 +1,12 @@
-# revision 32891
+# revision 33303
 # category Package
 # catalog-ctan /graphics/pstricks/contrib/pst-node
-# catalog-date 2014-02-04 05:38:17 +0100
+# catalog-date 2014-03-26 09:37:24 +0100
 # catalog-license lppl
+# catalog-version 1.33
 Name:		texlive-pst-node
-Version:	1.32
-Release:	2
+Version:	1.33
+Release:	1
 Summary:	Nodes and node connections in pstricks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-node
