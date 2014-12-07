@@ -6,7 +6,7 @@
 # catalog-version 1.33
 Name:		texlive-pst-node
 Version:	1.33
-Release:	2
+Release:	3
 Summary:	Nodes and node connections in pstricks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-node
