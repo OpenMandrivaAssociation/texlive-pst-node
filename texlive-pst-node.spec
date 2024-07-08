@@ -1,6 +1,6 @@
 Name:		texlive-pst-node
-Version:	61838
-Release:	2
+Version:	71724
+Release:	1
 Summary:	Nodes and node connections in pstricks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-node
