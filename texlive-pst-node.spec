@@ -1,5 +1,5 @@
 Name:		texlive-pst-node
-Version:	71724
+Version:	71773
 Release:	1
 Summary:	Nodes and node connections in pstricks
 Group:		Publishing
