@@ -3,7 +3,7 @@ Version:	71773
 Release:	1
 Summary:	Nodes and node connections in pstricks
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-node
+URL:		https://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-node
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-node.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-node.doc.r%{version}.tar.xz
